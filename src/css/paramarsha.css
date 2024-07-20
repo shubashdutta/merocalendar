@@ -1,0 +1,120 @@
+/* .pramash-content {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.news18.com/ibnlive/uploads/2021/07/1625080022_doctors-day-wishes-thumbnail.jpg?impolicy=website&width=640&height=480);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.banner-wrapper {
+  position: relative;
+}
+.banner-wrapper .paramarsh-banner {
+  height: 300px;
+}
+.banner-wrapper .paramarsh-banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.pramash-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+.pramash-content h1 {
+  text-align: center;
+  color: var(--white-color);
+}
+
+.pramash-content h6 {
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  color: var(--white-color);
+}
+
+.pramash-content_div {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* .Booking_div_paramasha {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.paramasha_insidediv {
+  border: 2px solid whitesmoke;
+  padding: 20px;
+  height: 470px;
+}
+
+.paramasha_insidediv img {
+  width: 100%;
+}
+
+.paramasha_insidediv h6 {
+  color: black;
+  font-weight: 700;
+}
+
+.paramasha_insidediv p {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.Div_for_booking {
+  background-color: whitesmoke;
+  padding: 20px;
+  height: 135px;
+}
+
+.Booking_div_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Booking_div_btn button {
+  background-color: #ff3d00;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.callus {
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+
+.callus h3 {
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0;;
+}
+.callus h6 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.callus a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.Our_Experts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Experts_insidediv  p {
+  margin: 0;
+  padding: 0;
+}

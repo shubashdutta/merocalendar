@@ -1,0 +1,41 @@
+.flex-item {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 95%;
+}
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.ibox-content {
+  clear: both;
+}
+.ibox-content {
+  border-bottom-left-radius: var(--box-border-radius);
+  border-bottom-right-radius: var(--box-border-radius);
+  border-color: var(--border-color);
+  border-image: none;
+  border-width: 1px 0 0;
+  padding: 15px 20px 20px;
+}
+
+.ibox-content,
+.ibox-title {
+  background-color: var(--white-background);
+  color: inherit;
+}
+.ibox {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0 15px;
+}
+.detail-img {
+  background-image: url(https://nepalipatro.com.np/static/media/np-calendars.1428b025.png);
+  background-position: 50% 10%;
+  background-size: cover;
+  min-height: 380px;
+}

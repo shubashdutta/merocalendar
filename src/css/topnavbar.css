@@ -1,0 +1,1009 @@
+.Topnavbar {
+  width: 100%;
+  background: var(--primary-color);
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+  list-style-type: none;
+
+  color: white;
+  margin: 0;
+}
+
+.flex li {
+  margin-right: 10px;
+  /* height: 25px; */
+}
+
+.flex li:first-child {
+  margin-left: 10px;
+  border-right: 2px solid white;
+  padding-right: 10px;
+}
+
+.flex li:nth-child(2) {
+  border-right: 2px solid white;
+
+  padding-right: 10px;
+}
+
+.flex li:first-child:hover {
+  color: #ef3a0c;
+}
+
+.flex li:nth-child(2):hover {
+  color: #ef3a0c;
+}
+.End-side {
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+
+  color: white;
+
+  margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.End-side li:first-child {
+  margin-right: 25px;
+}
+
+.End-side li:nth-child(2) {
+  margin-right: 15px;
+}
+
+.End-side li:last-child {
+  margin-top: 4px;
+}
+
+.End-side li:first-child:hover {
+  color: #ef3a0c;
+}
+
+.End-side li:nth-child(2):hover {
+  color: #ef3a0c;
+}
+
+.End-side li:last-child:hover {
+  color: #ef3a0c;
+}
+
+.dropbt {
+  color: wheat;
+}
+
+/*  down navbar css  */
+
+#navbar {
+  padding: 20px;
+}
+
+#navbaritem:hover {
+  color: #ef3a0c !important;
+}
+
+#navbarcalendar {
+  color: #ef3a0c !important;
+
+  font-weight: 700;
+}
+
+#navbaritem {
+  color: black !important;
+
+  font-weight: 600;
+}
+
+
+.dropdown {
+  position: fixed;
+  color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  min-width: 200px;
+
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: red;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navabar-end {
+  display: flex;
+
+  cursor: pointer;
+
+  margin-top: 5px;
+
+  margin-right: 30px;
+}
+.app {
+  margin-top: 5px;
+
+  font-weight: bold;
+  list-style: none;
+}
+
+/*  Home page side-div  */
+
+.side-div {
+  position: relative;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.inside-div {
+  box-shadow: -7px -17px 29px -11px rgba(0, 4, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+/* .inside-div p .inside-div h4 {} */
+
+.inside-div h4 {
+  margin-left: 25px;
+  margin-top: 15px;
+
+  font-size: 25px;
+}
+.inside-cont {
+  list-style: none;
+}
+
+.inside-cont p {
+  margin-top: 19px;
+
+  font-size: 10px;
+}
+
+.Timedate h2 {
+  font-size: 20px;
+}
+
+.Timedate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.sun {
+  display: flex;
+  flex-direction: column;
+}
+.sunicon {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 14px;
+  gap: 20px;
+}
+
+.ptag {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  color: #ff5722;
+  border: 1px solid rgba(244, 228, 228, 0.29);
+  border-radius: 10px;
+  padding: 6px 8px;
+  font-size: 14px;
+}
+
+.ptag:hover {
+  background-color: #e0e0e0;
+}
+
+.divinsidedivofdowndiv {
+  display: flex;
+}
+
+
+.sidebarevent h6 {
+  padding: 15px;
+
+  font-size: 20px;
+}
+
+.star {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.upcomingevenetdown {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.upcomingevenetdown:hover {
+  background-color: #e0e0e0;
+}
+.upcomingevenetdown h6 {
+  font-size: 15px;
+  padding-top: 0px;
+
+  padding-bottom: 0px;
+}
+
+.upcomingevenetdown img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 3px solid red;
+}
+
+.ptagunderhtga p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.dayptag {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+/*  currency changer css  */
+
+.Currency_Converter {
+  width: 100%;
+  margin-top: 20px;
+  border: 3px solid #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+}
+
+
+
+.Currency_Converter p {
+  margin: 0;
+  font-size: 14px;
+  padding: 0;
+}
+.Currency {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+
+
+.convert {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+
+
+#country {
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid #9f9f9f;
+  font-size: 12px;
+}
+
+#countrychnage {
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid #9f9f9f;
+  font-size: 12px;
+}
+
+
+.TodaysGoldrate {
+  margin-top: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: var(--border-radius);
+  background-color: var(--white-color);
+}
+
+.TodaysGoldrate h6 {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #9f9f9f;
+  margin: 0;
+}
+
+
+
+.Hallmarkgold {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+.Hallmarkgold:last-child {
+  border-bottom: none;
+}
+
+.Hallmarkgold .d-flex {
+  gap: 20px;
+}
+
+.Hallmarkgold img {
+  width: 70px;
+  height: 50px;
+}
+
+.Hallmarkgold p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.pertola p {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.Newspage_centerdiv {
+  flex: 0 1 45%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.centerdivtopitem h5 {
+  font-size: 22px;
+}
+
+.centerdivtopitem p {
+  margin: 0;
+  padding: 0;
+}
+
+
+.currentmonth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#ADBS {
+  margin-top: 20px;
+
+  border: none;
+
+  margin-left: 20px;
+
+  cursor: pointer;
+
+  padding: 9px;
+}
+
+#ADBS:hover {
+  border-radius: 15px;
+
+  border: 2px solid wheat;
+}
+
+#month {
+  margin-top: 20px;
+  display: flex;
+
+  margin-left: 20px;
+}
+
+#month h3 {
+  font-size: 15px;
+
+  padding: 15px;
+
+  font-weight: 400;
+
+  border-radius: 15px;
+}
+
+#month h3:hover {
+  border: 2px solid whitesmoke;
+}
+
+#month h4 {
+  font-size: 15px;
+
+  padding: 15px;
+
+  border: 3px solid whitesmoke;
+
+  cursor: pointer;
+
+  font-weight: 400;
+
+  border-radius: 15px;
+}
+
+#month button {
+  border: none;
+  background-color: white;
+
+  padding: 10px;
+}
+
+#month button:hover {
+  border: 5px solid whitesmoke;
+
+  border-radius: 15px;
+}
+
+.rightsideyear {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+}
+
+.rightsideyear button,
+i {
+  font-size: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+}
+
+.rightsideyear button,
+i:hover {
+  border: 5px solid rgba(241, 241, 241, 0.753);
+  border-radius: 10px;
+}
+
+.day {
+  background: #f7f7f7;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+  text-align: center;
+  height: 75px;
+  width: 75px;
+}
+
+.day h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0px;
+  color: #ff3d00;
+}
+
+.date-wrapper p {
+  font-size: 13px;
+}
+
+.news-content p {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.Topnavbar {
+  width: 100%;
+  background: #bf360c;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+  list-style-type: none;
+
+  color: white;
+  margin: 0;
+}
+
+.flex li {
+  margin-right: 10px;
+}
+
+.flex li:first-child {
+  margin-left: 10px;
+  border-right: 2px solid white;
+  padding-right: 10px;
+}
+
+.flex li:nth-child(2) {
+  border-right: 2px solid white;
+
+  padding-right: 10px;
+}
+
+.flex li:first-child:hover {
+  color: #ef3a0c;
+}
+
+.flex li:nth-child(2):hover {
+  color: #ef3a0c;
+}
+.End-side {
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+
+  color: white;
+
+  margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.End-side li:first-child {
+  margin-right: 25px;
+}
+
+.End-side li:nth-child(2) {
+  margin-right: 15px;
+}
+
+.End-side li:last-child {
+  margin-top: 4px;
+}
+
+.End-side li:first-child:hover {
+  color: #ef3a0c;
+}
+
+.End-side li:nth-child(2):hover {
+  color: #ef3a0c;
+}
+
+.End-side li:last-child:hover {
+  color: #ef3a0c;
+}
+
+.dropbt {
+  color: wheat;
+}
+
+/*  down navbar css  */
+#navbar {
+  padding: 20px;
+}
+
+#navbaritem:hover {
+  color: #ef3a0c !important;
+}
+
+#navbarcalendar {
+  color: #ef3a0c !important;
+
+  font-weight: 700;
+}
+
+#navbaritem {
+  color: black !important;
+
+  font-weight: 600;
+}
+
+.dropbtn {
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+.dropbtn:hover {
+  color: var(--primary-color);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  min-width: 200px;
+
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: red;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navabar-end {
+  display: flex;
+
+  cursor: pointer;
+
+  margin-top: 5px;
+
+  margin-right: 30px;
+}
+.app {
+  margin-top: 5px;
+
+  font-weight: bold;
+  list-style: none;
+}
+
+/*  Home page side-div  */
+
+.side-div {
+  position: relative;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.inside-div {
+  box-shadow: -7px -17px 29px -11px rgba(0, 4, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: var(--border-radius);
+  padding: 15px;
+}
+
+.inside-div h4 {
+  margin-left: 25px;
+  margin-top: 15px;
+
+  font-size: 25px;
+}
+.inside-cont {
+  list-style: none;
+}
+
+.inside-cont p {
+  margin-top: 19px;
+
+  font-size: 10px;
+}
+
+.Timedate h2 {
+  font-size: 20px;
+}
+
+.Timedate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.sun {
+  display: flex;
+  flex-direction: column;
+}
+.sunicon {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 14px;
+  gap: 20px;
+}
+
+.ptag {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  color: #ff5722;
+  border: 1px solid rgba(244, 228, 228, 0.29);
+  border-radius: 10px;
+  padding: 6px 8px;
+  font-size: 14px;
+}
+
+.ptag:hover {
+  background-color: #e0e0e0;
+}
+
+.divinsidedivofdowndiv {
+  display: flex;
+}
+
+.sidebarevent {
+  margin-top: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: var(--border-radius);
+  background-color: var(--white-color);
+}
+.sidebarevent h6 {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.star {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+
+.upcomingevenetdown:hover {
+  background-color: #e0e0e0;
+}
+.upcomingevenetdown h6 {
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+.ptagunderhtga p {
+  font-size: 12px;
+  
+}
+
+.days h5 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ddownseemore {
+  display: flex;
+  justify-content: end;
+}
+
+.seemore {
+  cursor: pointer;
+  color: #ff5722;
+  border: 3px solid rgba(244, 228, 228, 0.29);
+  border-radius: 10px;
+  margin: 0;
+  padding: 3px 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.seemore:hover {
+  background-color: #e0e0e0;
+}
+
+/*  currency changer css  */
+
+.Currency_Converter {
+  margin-top: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: var(--border-radius);
+  background-color: var(--white-color);
+}
+
+.Currency_Converter h6 {
+  font-size: 15px;
+  font-weight: 900;
+  color: #9f9f9f;
+}
+
+
+.Currency-date {
+  display: flex;
+  justify-content: end;
+}
+.divforAmountinput {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.divforconvertedto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divforconvertedto input {
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid #9f9f9f;
+  outline: red;
+}
+
+.currencyhtag h5 {
+  font-size: 19px;
+}
+
+.learnmore {
+  display: flex;
+  justify-content: end;
+}
+.learnmore a {
+  text-decoration: none;
+}
+.learnmore p {
+  border: 1px solid #d7d7d7;
+  cursor: pointer;
+  color: #f34511;
+  border-radius: 15px;
+  padding: 3px 10px;
+  margin: 0;
+}
+
+.learnmore p:hover {
+  background-color: #eaeaea;
+}
+
+.pertola h5 {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/*  centerdiv */
+.centerdiv {
+  width: 70%;
+  margin-left: 40px;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 50px;
+}
+
+.Newspage_centerdiv img {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.Mycalendars {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.currentmonth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#ADBS {
+  margin-top: 20px;
+
+  border: none;
+
+  margin-left: 20px;
+
+  cursor: pointer;
+
+  padding: 9px;
+}
+
+#ADBS:hover {
+  border-radius: 15px;
+
+  border: 2px solid wheat;
+}
+
+#month {
+  margin-top: 20px;
+  display: flex;
+
+  margin-left: 20px;
+}
+
+#month h3 {
+  font-size: 15px;
+
+  padding: 15px;
+
+  font-weight: 400;
+
+  border-radius: 15px;
+}
+
+#month h3:hover {
+  border: 2px solid whitesmoke;
+}
+
+#month h4 {
+  font-size: 15px;
+
+  padding: 15px;
+
+  border: 3px solid whitesmoke;
+
+  cursor: pointer;
+
+  font-weight: 400;
+
+  border-radius: 15px;
+}
+
+#month button {
+  border: none;
+  background-color: white;
+
+  padding: 10px;
+}
+
+#month button:hover {
+  border: 5px solid whitesmoke;
+
+  border-radius: 15px;
+}
+
+.rightsideyear {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+}
+
+.rightsideyear button,
+i {
+  font-size: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+}
+
+.rightsideyear button,
+i:hover {
+  border: 5px solid rgba(241, 241, 241, 0.753);
+  border-radius: 10px;
+}
+
+.day {
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+  text-align: center;
+  height: 75px;
+  width: 75px;
+}
+
+.day h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0px;
+  color: #ff3d00;
+}
+
+.date-wrapper p {
+  font-size: 13px;
+}
+
+.news-content p {
+  font-size: 14px;
+  padding: 10px;
+}

@@ -1,0 +1,79 @@
+.left-side-Goldpage h6 {
+  padding: 15px;
+  font-size: 20px;
+  color: gray;
+}
+
+.Goldratesdiv {
+  display: flex;
+  cursor: pointer;
+  border-bottom: 2px solid whitesmoke;
+  justify-content: space-between;
+}
+
+.Goldratesdiv img {
+  padding-left: 15px;
+}
+
+.Goldratesdiv h5 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+.Gold_page_center h6 {
+  padding: 10px;
+  color: gray;
+  font-size: 20px;
+}
+
+.Gold_page_center p {
+  font-size: 13px;
+  padding-left: 10px;
+}
+.Gold_page_center a {
+  color: black;
+}
+
+.Bullion_trend h6 {
+  padding: 20px;
+  color: gray;
+  font-size: 20px;
+}
+
+.Rupess {
+  display: flex;
+  justify-content: end;
+}
+
+.Rupess button {
+  border-radius: 15px;
+}
+
+.Rupess button:active {
+  background-color: red;
+}
+
+.Hallmark_goldpage ul {
+  margin-top: 30px;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #d5d5d5;
+  list-style: none;
+}
+
+.Hallmark_goldpage li {
+  padding-left: 90px;
+}
+
+.GoldRate_data ul {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  list-style: none;
+}
+
+.GoldRate_data ul:hover {
+  background-color: #d5d5d5;
+}

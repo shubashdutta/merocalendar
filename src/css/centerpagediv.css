@@ -1,0 +1,287 @@
+/* Grid Configurationx */
+.col-1 {
+  width: calc(100% * 1 / 12);
+}
+.col-2 {
+  width: calc(100% * 2 / 12);
+}
+.col-2_5 {
+  width: calc(100% * 2.5 / 12);
+}
+.col-3 {
+  width: calc(100% * 3 / 12);
+}
+.col-3_5 {
+  width: calc(100% * 3.8 / 12);
+}
+.col-4 {
+  width: calc(100% * 4 / 12);
+}
+.col-5 {
+  width: calc(100% * 5 / 12);
+}
+.col-6 {
+  width: calc(100% * 6 / 12);
+}
+.col-7 {
+  width: calc(100% * 7 / 12);
+}
+.col-8 {
+  width: calc(100% * 8 / 12);
+}
+.col-8_5 {
+  width: calc(100% * 8.5 / 12);
+}
+.col-8_2 {
+  width: calc(100% * 8.2 / 12);
+}
+.col-9 {
+  width: calc(100% * 9 / 12);
+}
+.col-10 {
+  width: calc(100% * 10 / 12);
+}
+.col-11 {
+  width: calc(100% * 11 / 12);
+}
+.col-11_5 {
+  width: calc(100% * 11.5 / 12);
+}
+.col-12 {
+  width: calc(100% * 12 / 12);
+}
+
+.centerpagediv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin: 3rem 0;
+}
+
+.div1 {
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  background-color: #f8ac59;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+
+
+.centerpagedowndiv {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: auto;
+}
+
+.leftsidediv {
+  width: 55%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+}
+.leftsidediv ul {
+  display: flex;
+  gap: 15px;
+
+  margin-top: 10px;
+
+  list-style-type: none;
+}
+
+.leftsidediv li {
+  cursor: pointer;
+
+  color: gray;
+
+  font-weight: 500;
+
+  font-size: 20px;
+}
+
+.leftsidediv li:hover {
+  color: red;
+}
+
+.leftsidediv li:first-child {
+  color: red;
+
+  font-weight: 500;
+}
+
+.divimg img {
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+}
+
+.divimg h6 {
+  color: var(--black-color);
+  margin: 0;
+  padding: 0;
+  margin-top: 8px;
+}
+.divimg a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.divimg p {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  color: var(--black-color) !important;
+}
+
+.divinsidedivofdowndiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 3px;
+  padding: 10px;
+}
+
+.divinsidedivofdowndiv h6 {
+  width: 70%;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.divinsidedivofdowndiv img {
+  border-radius: 30px;
+  width: 250px;
+}
+
+.rightsidediv {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.rightsidediv a {
+  text-decoration: none;
+
+  color: #818181;
+}
+
+.rightsidediv h5 {
+  font-size: 20px;
+  color: var(--grey-dark-color);
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+
+.rightsidedivforimg {
+  display: flex;
+}
+
+.rightsidedivforimg img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.rightsidedivforimg h6 {
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 17px;
+  line-height: 25px;
+}
+.centerpagedowndivhomepage {
+  border-radius: var(--border-radius);
+  background-color: var(--white-color);
+  padding: 20px;
+}
+
+.div1:nth-child(1) {
+  background-color: rgb(35,198,200);
+}
+
+.div1:nth-child(2) {
+  background-color: rgb(53, 74, 75);
+}
+.div1:nth-child(3) {
+  background-color: rgb(214, 105, 16);
+}
+.centerpagedowndivhomepage h3 {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: var(--grey-dark-color);
+  margin-bottom: 1rem;
+}
+
+.nepalipartopandhtag p {
+  margin: 0px;
+  padding: 0;
+  color: var(--grey-dark-color);
+  padding: 6px 0;
+}
+
+.nepalipartolearnmore {
+  text-align: right;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.nepalipartolearnmore a {
+  border: 2px solid wheat;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  color: red;
+  text-decoration: none;
+  padding: 3px 10px;
+}
+
+.nepalipartolearnmore a:hover {
+  background-color: whitesmoke;
+}
+
+.mero-calendar {
+  margin-bottom: 20px;
+}
+.mero-calendar img {
+  border-radius: 15px;
+}
+
+.downdiv1 {
+  width: 300px;
+  height: 200px;
+}
+.downdiv2 {
+  width: 300px;
+  height: 200px;
+}
+.downdiv3 {
+  width: 300px;
+  height: 200px;
+}
+@media (min-width: 300px) and (max-width: 760px) {
+  .centerpagediv {
+    flex-wrap: wrap;
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    width: 30%;
+  }
+}
+
+@media (max-width: 968px) {
+  .centerpagediv {
+    flex-wrap: wrap;
+    transform: translate(50%, 9%);
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    width: 100%;
+    margin: 2.5%;
+  }
+}

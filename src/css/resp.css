@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+  .End-side {
+    flex-direction: column;
+  }
+}

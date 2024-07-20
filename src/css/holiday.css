@@ -1,0 +1,60 @@
+.Holiday_page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.holiday_info {
+  margin-top: 20px;
+  border: 2px solid whitesmoke;
+}
+
+.holiday_info h6,
+p {
+  padding-left: 10px;
+}
+
+.Suva_page_ptag p {
+  padding-right: 50px;
+  font-size: 14px;
+  color: gray;
+
+  font-weight: 500;
+}
+
+.Suva_page_ptag {
+  margin-top: 10px;
+
+  text-align: justify;
+}
+
+.Suva_page_ptag a {
+  color: red;
+  text-decoration: none;
+}
+
+.suva_page select {
+  width: 100%;
+  margin-top: 15px;
+
+  border-radius: 5px;
+
+  margin-bottom: 20px;
+}
+
+.puja_type select {
+  width: 100%;
+  margin-top: 5px;
+
+  border-radius: 5px;
+
+  margin-bottom: 20px;
+}
+
+.month_name {
+  width: 100%;
+  display: flex;
+}
+
+.month_name h6 {
+  padding-left: 7px;
+}

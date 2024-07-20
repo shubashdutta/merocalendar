@@ -1,0 +1,29 @@
+.custom-container {
+  width: 800px;
+
+  margin: 0 auto;
+
+  height: auto;
+
+  /* background-color: red; */
+}
+
+.custom-container img {
+  width: 100%;
+
+  height: auto;
+}
+
+.Method {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Explore_more {
+  justify-content: space-between;
+}
+
+.Explore_more button {
+  border-radius: 20px;
+  padding: 5px;
+}

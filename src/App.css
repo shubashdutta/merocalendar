@@ -1,0 +1,269 @@
+.light-theme {
+  --primary-color: #e5362c;
+  --secondary-color: #0d5695;
+  --tertiary-color: #f8f9fa;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --dark-calendary-color: #183755;
+  --grey-color: #f3f3f4;
+  --border-radius: 10px;
+  --grey-dark-color: #7e7e7e;
+}
+
+.dark-theme .np-sub-header {
+  background-color: #0a192f !important;
+}
+
+.dark-theme .darkmode {
+  background-color: #242526 !important;
+
+  border: none;
+  color: white;
+}
+
+.dark-theme {
+  --grey-color: #0a192f;
+  --primary-color: #e5362c;
+  --secondary-color: yellow;
+
+  --black-color: white;
+  --dark-calendary-color: white;
+  --border-radius: 10px;
+  --grey-dark-color: white;
+}
+
+.dark-theme h5,
+.dark-theme h4,
+.dark-theme .Nepali_calendar li,
+.dark-theme h6,
+.dark-theme p,
+.dark-theme span,
+.dark-theme h3 {
+  color: white;
+}
+
+.dark-theme .dropdown-content a {
+  background-color: #0a192f;
+  color: white;
+}
+.dark-theme .day span {
+  color: red;
+}
+
+.dark-theme .Currency_Converter {
+  border: none;
+}
+.dark-theme .inside-div {
+  background-color: #0a192f;
+}
+
+.dark-theme .Timedate {
+  color: white;
+}
+a {
+  text-decoration: none !important;
+  color: var(--black-color) !important;
+}
+body {
+  background-color: var(--grey-color) !important;
+}
+img {
+  width: 100%;
+}
+.logo {
+  width: 100%;
+  height: 70px;
+}
+
+.grid {
+  display: grid;
+}
+.column-1 {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+.column-2 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.column-3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.column-4 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.column-5 {
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.panchanga-form .grid .border {
+  padding: 6px 0;
+}
+.panchanga-form p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  text-align: center;
+}
+.form-control:focus {
+  outline: 0 !important;
+  box-shadow: initial !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: var(--secondary-color) !important;
+  color: var(--white-color) !important;
+}
+.nav-link {
+  color: var(--black-color) !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+}
+.bg-color {
+  background-color: var(--white-color);
+  padding: 15px 30px 20px;
+}
+.news-reference {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--grey-color);
+  border-radius: 100px;
+  padding: 4px;
+}
+.news-reference img {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 100%;
+}
+.news-reference p {
+  margin: 0;
+  font-size: 12px;
+  padding: 0 4px;
+}
+
+.timetag p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+.recommended-img img {
+  border-radius: 8px;
+  height: 80px;
+  object-fit: cover;
+}
+.download-app {
+  gap: 30px;
+}
+.download-app img {
+  width: 150px;
+}
+.sidebar,
+.sidesticky {
+  position: sticky;
+  top: 0px;
+}
+.horroscope-title h5 {
+  color: var(--secondary-color);
+  font-size: 26px;
+}
+.nav-item .nav-link {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.horoscope-content h6 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 16px;
+}
+.border-radius {
+  border-radius: var(--border-radius);
+}
+
+.single-data img {
+  border-radius: var(--border-radius);
+}
+.single-data h6 {
+  color: #818181;
+  margin-top: 4px;
+}
+
+.line {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 40px 0;
+}
+.line span {
+  background-color: var(--grey-color);
+  position: relative;
+  z-index: 1;
+  padding: 0 30px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.line::after {
+  height: 2px;
+  content: "";
+  width: 100%;
+  background-color: var(--white-color);
+  position: absolute;
+  top: 16px;
+  left: 0;
+}
+.call-icon {
+  background-color: green;
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 34px;
+}
+.expert-img {
+  height: 120px;
+  width: 120px;
+  overflow: hidden;
+  border: 2px solid var(--dark-calendary-color);
+  border-radius: 100%;
+}
+.expert-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rating {
+  color: rgb(230, 169, 38);
+}
+
+.news-search {
+  position: relative;
+}
+.news-search span {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0%, -50%);
+  padding: 10px;
+  cursor: pointer;
+}
+.news-title h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+.fs-10 {
+  font-size: 10px;
+}
+.gap-10 {
+  gap: 10px;
+}

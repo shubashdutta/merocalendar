@@ -1,0 +1,27 @@
+.page-pad {
+  padding: 20px 0 0;
+  position: relative;
+}
+
+.np-sub-header,
+.radio-sub-header-bg-img {
+  background: var(--primary-black-color);
+  background-size: cover !important;
+  color: #f7f7f7;
+  padding: 6rem 2rem;
+}
+
+#Logingpage {
+  background-color: #ff5722;
+}
+
+#Facebook:hover {
+  background-color: blue;
+
+  color: white;
+}
+
+#Google:hover {
+  background-color: #ff5722;
+  color: white;
+}

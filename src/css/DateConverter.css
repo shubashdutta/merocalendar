@@ -1,0 +1,43 @@
+.Date_converter_center a {
+  text-decoration: none;
+  color: red;
+}
+
+.Adtobs {
+  width: 100%;
+}
+
+.datechange {
+  margin-top: 30px;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.datechange input {
+  width: 30%;
+
+  border-radius: 15px;
+}
+.datechange select {
+  width: 30%;
+  border-radius: 15px;
+}
+
+.convert_now {
+  display: flex;
+
+  justify-content: center;
+  padding: 10px;
+}
+
+.convert_now button {
+  border-radius: 15px;
+  padding: 10px;
+
+  background-color: brown;
+
+  color: white;
+
+  border: none;
+}

@@ -1,0 +1,123 @@
+.Forex_page {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Forex_page_leftside {
+  width: 30%;
+  height: 300px;
+
+  margin-left: 30px;
+  margin-top: 10px;
+
+  border-radius: 20px;
+}
+
+.Forex_page_leftside h6 {
+  padding-top: 15px;
+  padding-left: 10px;
+  color: gray;
+  font-size: 20px;
+}
+
+
+.left_side_trend p {
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 10px;
+
+  text-align: justify;
+}
+
+.left_side_trend img {
+  margin-top: 20px;
+}
+
+.center_div_forex {
+  width: 63%;
+  margin-top: 10px;
+
+  margin-right: 3%;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  height: auto;
+}
+
+.center_div_forex h6 {
+  padding-top: 20px;
+
+  padding-left: 15px;
+
+  color: gray;
+
+  font-size: 20px;
+}
+
+.center_div_forex p {
+  padding-left: 15px;
+  text-align: justify;
+  padding-right: 35px;
+
+  font-size: 15px;
+}
+
+.Curreny_forex {
+  width: 95%;
+  height: auto;
+  background-color: gray;
+
+  margin-left: 3%;
+}
+
+.Curreny_Indian {
+  margin-top: 5px;
+  width: 95%;
+  height: 40px;
+  cursor: pointer;
+
+  margin-left: 3%;
+}
+
+.Curreny_Indian:hover {
+  background-color: rgb(200, 200, 200);
+}
+
+.Curreny_forex ul {
+  display: flex;
+  justify-content: space-evenly;
+
+  list-style: none;
+}
+.Curreny_Indian ul {
+  display: flex;
+  justify-content: space-evenly;
+
+  list-style: none;
+}
+
+.Curreny {
+  margin-top: 5px;
+  width: 95%;
+  height: auto;
+  cursor: pointer;
+
+  margin-left: 3%;
+}
+
+.center_div_forex h4 {
+  color: red;
+
+  padding: 10px;
+
+  margin-left: 25px;
+}
+
+.Curreny ul {
+  display: flex;
+  justify-content: space-evenly;
+
+  list-style: none;
+}
